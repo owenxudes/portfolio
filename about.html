@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <title>ABOUTme</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div id="header-container">
+        <header>--ABOUT ME--</header>
+    </div>
+
+    <div id="info-container">
+        <div id="about-me">
+            <p>Hi, I'm <span class="owen">Owen</span></p>
+            <p>--- I am a <span class="multimedia">multimedia designer</span> and <span class="student">student</span> </p>
+            <p>------ Currently based in <span class ="melbourne">Melbourne</span> and <span class="auckland">Auckland</span></p>
+            <p>--------- I enjoy making work with <span class="adobe">Adobe Suite</span>,<span class="blender">Blender</span>,<span class="javascript">Javascript/HTML and Processing</span></p>
+        </div>
+
+        <div id="return">
+            <a href="index.html"> ---Take a look at my work---</a>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const header = document.querySelector("header");
+            const infoContainer = document.getElementById("info-container");
+
+            header.addEventListener("click", function (){
+                infoContainer.classList.toggle("visible");
+            });
+        });
+    </script>
+
+</body>

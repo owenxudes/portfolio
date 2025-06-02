@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Cutive Mono', monospace;
+  background-color: #fefefe;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#header-container {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  padding: 1vh;
+  background-color: rgb(255, 245, 239);
+}
+
+header {
+  font-size: 5vw;
+  transition: 0.3s;
+}
+
+header:hover {
+  font-size: 5.3vw;
+  color:rgb(236, 181, 80);
+}
+
+#caption {
+  position: relative;
+  left: 2vw;
+  top: 2vh;
+  font-size: 1vw;
+}
+
+.gallery {
+  column-count: 3;
+  column-gap: 1rem;
+  padding: 1vw;
+}
+
+.item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.media-container {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.media-container img,
+.media-container video {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 0 0 8px 8px;
+}
+
+.media-container:hover .overlay {
+  opacity: 1;
+}
+
+.item:hover {
+  transform: scale(1.02);
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    column-count: 1;
+  }
+
+  .overlay {
+    font-size: 1.1rem;
+    padding: 0.7rem;
+  }
+}

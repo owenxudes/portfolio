@@ -1,0 +1,302 @@
+[
+  {
+    "src": "library/3d/Islands.png",
+    "alt": "Islands.png",
+    "caption": "Islands",
+    "folder": "3d"
+  },
+  {
+    "src": "library/3d/Snowfall 1.png",
+    "alt": "Snowfall 1.png",
+    "caption": "Snowfall 1",
+    "folder": "3d"
+  },
+  {
+    "src": "library/3d/Snowfall 2.png",
+    "alt": "Snowfall 2.png",
+    "caption": "Snowfall 2",
+    "folder": "3d"
+  },
+  {
+    "src": "library/3d/Snowfall 3.png",
+    "alt": "Snowfall 3.png",
+    "caption": "Snowfall 3",
+    "folder": "3d"
+  },
+  {
+    "src": "library/3d/Snowfall 4.png",
+    "alt": "Snowfall 4.png",
+    "caption": "Snowfall 4",
+    "folder": "3d"
+  },
+  {
+    "src": "library/3d/Snowfall 5.png",
+    "alt": "Snowfall 5.png",
+    "caption": "Snowfall 5",
+    "folder": "3d"
+  },
+  {
+    "src": "library/3d/Snowfall 6.png",
+    "alt": "Snowfall 6.png",
+    "caption": "Snowfall 6",
+    "folder": "3d"
+  },
+  {
+    "src": "library/animations/Im not even sure.mp4",
+    "alt": "Im not even sure.mp4",
+    "caption": "Im not even sure",
+    "folder": "animations"
+  },
+  {
+    "src": "library/animations/Isolation.mp4",
+    "alt": "Isolation.mp4",
+    "caption": "Isolation",
+    "folder": "animations"
+  },
+  {
+    "src": "library/animations/Lights and Flames.mp4",
+    "alt": "Lights and Flames.mp4",
+    "caption": "Lights and Flames",
+    "folder": "animations"
+  },
+  {
+    "src": "library/animations/Neon Lights .mp4",
+    "alt": "Neon Lights .mp4",
+    "caption": "Neon Lights ",
+    "folder": "animations"
+  },
+  {
+    "src": "library/animations/Stuck in motion.mp4",
+    "alt": "Stuck in motion.mp4",
+    "caption": "Stuck in motion",
+    "folder": "animations"
+  },
+  {
+    "src": "library/physical/Erasure.jpg",
+    "alt": "Erasure.jpg",
+    "caption": "Erasure",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/Feast in the park.png",
+    "alt": "Feast in the park.png",
+    "caption": "Feast in the park",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/markbook1.png",
+    "alt": "markbook1.png",
+    "caption": "markbook1",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/markbook2.png",
+    "alt": "markbook2.png",
+    "caption": "markbook2",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/markbook3.png",
+    "alt": "markbook3.png",
+    "caption": "markbook3",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/Mr Sawyer.jpg",
+    "alt": "Mr Sawyer.jpg",
+    "caption": "Mr Sawyer",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/Representative Portrait 1.jpg",
+    "alt": "Representative Portrait 1.jpg",
+    "caption": "Representative Portrait 1",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/Representative Portrait 2.png",
+    "alt": "Representative Portrait 2.png",
+    "caption": "Representative Portrait 2",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/Rufus.png",
+    "alt": "Rufus.png",
+    "caption": "Rufus",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/Silhouette.jpg",
+    "alt": "Silhouette.jpg",
+    "caption": "Silhouette",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/The Room.png",
+    "alt": "The Room.png",
+    "caption": "The Room",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/the selfish giant 1.png",
+    "alt": "the selfish giant 1.png",
+    "caption": "the selfish giant 1",
+    "folder": "physical"
+  },
+  {
+    "src": "library/physical/the selfish giant 2.png",
+    "alt": "the selfish giant 2.png",
+    "caption": "the selfish giant 2",
+    "folder": "physical"
+  },
+  {
+    "src": "library/posters/Africa Poster 1.jpg",
+    "alt": "Africa Poster 1.jpg",
+    "caption": "Africa Poster 1",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Africa Poster 2.jpg",
+    "alt": "Africa Poster 2.jpg",
+    "caption": "Africa Poster 2",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Africa Poster 3.jpg",
+    "alt": "Africa Poster 3.jpg",
+    "caption": "Africa Poster 3",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Africa Poster 4.jpg",
+    "alt": "Africa Poster 4.jpg",
+    "caption": "Africa Poster 4",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Book Back.jpg",
+    "alt": "Book Back.jpg",
+    "caption": "Book Back",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Book Front.jpg",
+    "alt": "Book Front.jpg",
+    "caption": "Book Front",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Book Mock up 1.png",
+    "alt": "Book Mock up 1.png",
+    "caption": "Book Mock up 1",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Book Mock up 2.png",
+    "alt": "Book Mock up 2.png",
+    "caption": "Book Mock up 2",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Composition 1.png",
+    "alt": "Composition 1.png",
+    "caption": "Composition 1",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Composition 2 .png",
+    "alt": "Composition 2 .png",
+    "caption": "Composition 2 ",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Composition 3 .png",
+    "alt": "Composition 3 .png",
+    "caption": "Composition 3 ",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Composition 4 .png",
+    "alt": "Composition 4 .png",
+    "caption": "Composition 4 ",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Composition 5.png",
+    "alt": "Composition 5.png",
+    "caption": "Composition 5",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Composition 6 p.png",
+    "alt": "Composition 6 p.png",
+    "caption": "Composition 6 p",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Neon 1.png",
+    "alt": "Neon 1.png",
+    "caption": "Neon 1",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Neon 2.png",
+    "alt": "Neon 2.png",
+    "caption": "Neon 2",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Neon 3.png",
+    "alt": "Neon 3.png",
+    "caption": "Neon 3",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Neon Poster 1.png",
+    "alt": "Neon Poster 1.png",
+    "caption": "Neon Poster 1",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Neon Poster 2.png",
+    "alt": "Neon Poster 2.png",
+    "caption": "Neon Poster 2",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Neon Poster 3.png",
+    "alt": "Neon Poster 3.png",
+    "caption": "Neon Poster 3",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Neon Poster 4.png",
+    "alt": "Neon Poster 4.png",
+    "caption": "Neon Poster 4",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Neon Poster 5.png",
+    "alt": "Neon Poster 5.png",
+    "caption": "Neon Poster 5",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Psych 1.png",
+    "alt": "Psych 1.png",
+    "caption": "Psych 1",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Psych 2.png",
+    "alt": "Psych 2.png",
+    "caption": "Psych 2",
+    "folder": "posters"
+  },
+  {
+    "src": "library/posters/Psych Final.png",
+    "alt": "Psych Final.png",
+    "caption": "Psych Final",
+    "folder": "posters"
+  }
+]

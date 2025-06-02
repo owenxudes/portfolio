@@ -1,0 +1,84 @@
+body {
+    font-family: 'Cutive Mono', monospace;
+    margin: 0;
+    padding: 0;
+    transition: filter 0.3s ease;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+
+a  {
+    font-size: 3vh;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:blueviolet;
+    font-size: 3.5vh;
+}
+
+header {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 5vw;
+    cursor:pointer;
+}
+
+#info-container {
+    opacity: 0;
+    padding-top: 0;
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: all 1s ease;
+}
+
+#info-container.visible{
+    opacity: 1;
+    padding-top: 3vh;
+    visibility: visible;
+    max-height: 60vh;
+}
+
+#about-me {
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+
+#return {
+    padding: 1vw;
+    
+}
+
+.owen {
+    color:aqua;
+}
+
+.multimedia {
+    color:red;
+}
+
+.student {
+    color: greenyellow;
+}
+
+.melbourne {
+    color: pink;
+}
+
+.auckland {
+    color: orange;
+}
+
+.adobe {
+    color:maroon
+}
+
+.blender {
+    color:fuchsia;
+}
+
+.javascript {
+    color:blue;
+}
