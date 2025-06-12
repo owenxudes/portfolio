@@ -21,8 +21,9 @@ a:hover{
 
 header {
     font-family: 'Cutive Mono', monospace;
-    font-size: 5vw;
+    font-size: 5rem;
     cursor:pointer;
+    padding: 2vh;
 }
 
 #info-container {

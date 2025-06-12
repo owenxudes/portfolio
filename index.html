@@ -6,58 +6,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
-    <title>HOMEpage</title>
+    <title>owenXU</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="header-container">
-        <header>owen xu</header>
-        <p id="caption">i dab in a bit of everything :></p>
+    <a href="home.html"><header>owen xu</header></a>
+
+    <div id="showcase-container">
+        <img id="slide1" class ="slideshow" src="library/3d/Islands.png" alt="slideshow image">
+        <img id="slide2" class ="slideshow" src="library/3d/Snowfall 6.png" alt="slideshow image">
+        
+        <div id="left-arrow" class="arrow">&#10094;</div>
+        <div id="right-arrow" class="arrow">&#10095;</div>
     </div>
+    
+<script>
+  const images = [
+    "library/3d/Islands.png",
+    "library/3d/Snowfall 6.png",
+    "library/physical/Mr Sawyer.jpg",
+    "library/posters/Book Mock up 2.png",
+    "library/posters/Composition 1.png",
+    "library/branding/Lb/mockup 5.png"
+  ];
 
-    <div id="nav-container">      
-        <div id="threeD">
-            <a href="3d.html"> 
-                <p id="threeD-text">3d</p>
-            </a>
-        </div>
+  let index = 0;
+  let showingSlide1 = true;
 
-        <div id="adobe">
-            <a href="adobe.html"> 
-                <p id="adobe-text">adobe</p>
-            </a>
-        </div>
+  const slide1 = document.getElementById("slide1");
+  const slide2 = document.getElementById("slide2");
 
-        <div id="animations">
-            <a href="animations.html"> 
-                <p id="animations-text">films and animations</p>
-            </a>
-        </div>
+  slide1.src = images[0];
+  slide1.style.opacity = 1;
+  slide2.src = images [1];
 
-        <div id="physical">
-            <a href="physical.html"> 
-                <p id="physical-text">physical work</p>
-            </a>
-        </div>
+  let intervalId;
 
-        <div id="coding">
-            <a href="https://owenxuuni2.github.io/final/" target="_blank"> 
-                <p id="coding-text">coding</p>
-            </a>
-        </div>
+  function showImage(newIndex) {
+    index = (newIndex + images.length) % images.length;
 
-        <div id="randumb">
-            <a href="randumb.html"> 
-                <p id="randumb-text">others</p>
-            </a>
-        </div>
-    </div>
+    if (showingSlide1) {
+      slide2.src = images[index];
+      slide2.style.opacity = 1;
+      slide1.style.opacity = 0;
+    } else {
+      slide1.src = images[index];
+      slide1.style.opacity = 1;
+      slide2.style.opacity = 0;
+    }
 
-    <div id="bottom-container">
-        <a href="about.html">
-            <p id="about-text">about me</p>
-        </a>
-    </div>
+    showingSlide1 = !showingSlide1;
+  }
 
+  function startAutoPlay() {
+    intervalId = setInterval(() => {
+      showImage(index + 1);
+    }, 3000);
+  }
+
+  function resetAutoPlay() {
+    clearInterval(intervalId);
+    startAutoPlay();
+  }
+
+  // Start autoplay on load
+  startAutoPlay();
+
+  // Manual arrow controls with reset
+  document.getElementById("left-arrow").addEventListener("click", () => {
+    showImage(index - 1);
+    resetAutoPlay();
+  });
+
+  document.getElementById("right-arrow").addEventListener("click", () => {
+    showImage(index + 1);
+    resetAutoPlay();
+  });
+</script>
 </body>
 </html>

@@ -1,0 +1,141 @@
+body {
+    font-family: 'Cutive Mono', monospace;
+    margin: 0;
+    padding: 0;
+    transition: filter 0.3s ease;
+    background-color: white;
+    overflow: hidden;
+}
+
+a   {
+    text-decoration: none;
+    color: black;
+}
+
+#header-container {
+    display: flex;
+    align-items: center;
+    gap: 2vw; 
+    padding: 1vh;
+    background-color: rgb(255, 245, 239);
+}
+
+header {
+    font-size: 6rem;
+}
+
+header:hover {
+    color: grey;
+}
+
+#caption {
+    position: relative;
+    left: 2vw;
+    top: 2vh;
+    font-size: 1vw;
+}
+
+#nav-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* main component styles */
+#threeD, #adobe , #animations, #physical, #coding, #randumb {
+    background-color: transparent;
+    width:100vw;
+    transition: 0.3s;
+}
+
+#threeD-text{
+    position: relative;
+    font-size: 1.1vw;
+}
+
+#threeD:hover {
+    cursor: pointer;
+    background-color: rgb(99, 249, 117);
+    transform: scale(1.5);
+}
+
+#adobe-text{
+    position: relative;
+    font-size: 1.1vw;
+}
+
+#adobe:hover {
+    cursor: pointer;
+    background-color: rgb(236, 181, 80);
+    transform: scale(1.5);
+}
+
+#animations-text{
+    position: relative;
+    font-size: 1.1vw;
+}
+
+#animations:hover {
+    cursor: pointer;
+    background-color: rgb(87, 74, 239);
+    transform: scale(1.5);
+}
+
+#physical-text{
+    position: relative;
+    font-size: 1.1vw;
+}
+
+#physical:hover {
+    cursor: pointer;
+    background-color: rgb(236, 239, 74);
+    transform: scale(1.5);
+}
+
+#coding-text{
+    position: relative;
+    font-size: 1.1vw;
+}
+
+#coding:hover {
+    cursor: pointer;
+    background-color: rgb(193, 119, 119);
+    transform: scale(1.5);
+}
+
+#randumb-text {
+    position: relative;
+    font-size: 1.1vw;
+}
+
+#randumb:hover {
+    cursor: pointer;
+    background-color: crimson;
+    transform: scale(1.5);
+}
+
+
+/* bottom bar */
+#bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: fixed;
+    bottom: 0;
+    padding: 1vh 2vw;
+    background-color: white; 
+    width:100vw;
+    transition: 0.3s;
+    height: 5vh;
+}
+
+#about-text {
+    font-size: 2vh;
+}
+
+#bottom-container:hover{
+    cursor: pointer;
+    background-color: rgb(239, 239, 239);
+    height: 8vh;
+}

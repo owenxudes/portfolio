@@ -1,182 +1,93 @@
 body {
-    font-family: 'Cutive Mono', monospace;
-    margin: 0;
-    padding: 0;
-    transition: filter 0.3s ease;
-    background-color: white;
-    overflow: hidden;
+  font-family: 'Cutive Mono', monospace;
+  margin: 0;
+  padding: 0;
+  transition: filter 0.3s ease;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
 }
 
-a   {
-    text-decoration: none;
-    color: black;
-}
-
-#header-container {
-    display: flex;
-    align-items: center;
-    gap: 2vw; 
-    padding: 1vh;
-    background-color: rgb(255, 245, 239);
+a {
+  text-decoration: none;
+  color: black;
 }
 
 header {
-    font-size: 5vw;
+  position: absolute;
+  left: 1vh;
+  top: 0.7vh;
+  font-size: 6rem;
+  color: white;
+  transition: 0.3s;
+  z-index: 10;
+}
+
+header:hover {
+  color: rgb(198, 198, 198);
 }
 
 #caption {
-    position: relative;
-    left: 2vw;
-    top: 2vh;
-    font-size: 1vw;
+  position: relative;
+  left: 2vw;
+  top: 2vh;
+  font-size: 1vw;
+  color: white;
+  z-index: 5;
 }
 
-#nav-container{
-    display: flex;
-    flex-direction: column;
+#showcase-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: black;
 }
 
-
-/* 3d component styles */
-#threeD {
-    background-color: transparent;
-    width:100vw;
-    transition: 0.3s;
+.slideshow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-#threeD-text{
-    position: relative;
-    font-size: 1.1vw;
-    left: 2vh;
+#slide1 {
+  z-index: 2;
 }
 
-#threeD:hover {
-    cursor: pointer;
-    background-color: rgb(99, 249, 117);
-    transform: scale(1.1);
+#slide2 {
+  z-index: 1;
 }
 
-
-/* illustrator component styles */
-#adobe {
-    background-color: transparent;
-    width:100vw;
-    transition: 0.3s;
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 4rem;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
 }
 
-#adobe-text{
-    position: relative;
-    font-size: 1.1vw;
-    left: 2vh;
+.arrow:hover {
+  color: rgb(164, 164, 164);
 }
 
-#adobe:hover {
-    cursor: pointer;
-    background-color: rgb(236, 181, 80);
-    transform: scale(1.1);
+#left-arrow {
+  left: 1rem;
 }
 
-/* animation component styles */
-#animations {
-    background-color: transparent;
-    width:100vw;
-    transition: 0.3s;
-}
-
-#animations-text{
-    position: relative;
-    font-size: 1.1vw;
-    left: 2vh;
-}
-
-#animations:hover {
-    cursor: pointer;
-    background-color: rgb(87, 74, 239);
-    transform: scale(1.1);
-}
-
-/* physical component styles */
-#physical  {
-    background-color: transparent;
-    width:100vw;
-    transition: 0.3s;
-}
-
-#physical-text{
-    position: relative;
-    font-size: 1.1vw;
-    left: 2vh;
-}
-
-#physical:hover {
-    cursor: pointer;
-    background-color: rgb(236, 239, 74);
-    transform: scale(1.1);
+#right-arrow {
+  right: 1rem;
 }
 
 
-
-/* coding component styles */
-#coding {
-    background-color: transparent;
-    width:100vw;
-    transition: 0.3s;
-}
-
-#coding-text{
-    position: relative;
-    font-size: 1.1vw;
-    left: 2vh;
-}
-
-#coding:hover {
-    cursor: pointer;
-    background-color: rgb(193, 119, 119);
-    transform: scale(1.1);
-}
-
-
-
-/* randumb component styles */
-#randumb {
-    background-color: transparent;
-    width:100vw;
-    transition: 0.3s;
-}
-
-#randumb-text {
-    position: relative;
-    font-size: 1.1vw;
-    left: 2vh;
-}
-
-#randumb:hover {
-    cursor: pointer;
-    background-color: crimson;
-    transform: scale(1.1);
-}
-
-
-/* bottom bar */
-#bottom-container {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    position: fixed;
-    bottom: 0;
-    padding: 1vh 2vw;
-    background-color: white; 
-    width:100vw;
-    transition: 0.3s;
-    height: 5vh;
-}
-
-#about-text {
-    font-size: 2vh;
-}
-
-#bottom-container:hover{
-    cursor: pointer;
-    background-color: rgb(239, 239, 239);
-    height: 8vh;
-}

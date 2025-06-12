@@ -72,6 +72,66 @@
     "folder": "animations"
   },
   {
+    "src": "library/branding/Lb/card.png",
+    "alt": "card.png",
+    "caption": "card",
+    "folder": "branding"
+  },
+  {
+    "src": "library/branding/Lb/final logo(bw).png",
+    "alt": "final logo(bw).png",
+    "caption": "final logo(bw)",
+    "folder": "branding"
+  },
+  {
+    "src": "library/branding/Lb/logo tests.png",
+    "alt": "logo tests.png",
+    "caption": "logo tests",
+    "folder": "branding"
+  },
+  {
+    "src": "library/branding/Lb/menu.png",
+    "alt": "menu.png",
+    "caption": "menu",
+    "folder": "branding"
+  },
+  {
+    "src": "library/branding/Lb/mockup 1.png",
+    "alt": "mockup 1.png",
+    "caption": "mockup 1",
+    "folder": "branding"
+  },
+  {
+    "src": "library/branding/Lb/mockup 2.png",
+    "alt": "mockup 2.png",
+    "caption": "mockup 2",
+    "folder": "branding"
+  },
+  {
+    "src": "library/branding/Lb/mockup 3.png",
+    "alt": "mockup 3.png",
+    "caption": "mockup 3",
+    "folder": "branding"
+  },
+  {
+    "src": "library/branding/Lb/mockup 4.png",
+    "alt": "mockup 4.png",
+    "caption": "mockup 4",
+    "folder": "branding"
+  },
+  {
+    "src": "library/branding/Lb/mockup 5.png",
+    "alt": "mockup 5.png",
+    "caption": "mockup 5",
+    "folder": "branding"
+  },
+  {
+    "src": "library/branding/Lb/mockup 6.png",
+    "alt": "mockup 6.png",
+    "caption": "mockup 6",
+    "folder": "branding"
+  },
+  {
     "src": "library/physical/Erasure.jpg",
     "alt": "Erasure.jpg",
     "caption": "Erasure",
