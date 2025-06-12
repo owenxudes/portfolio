@@ -1,11 +1,10 @@
-const folderToShow = "physical";  // Change this to "posters" for posters page, etc.
+const folderToShow = "physical";
 
 fetch('images.json')
   .then(response => response.json())
   .then(data => {
     const gallery = document.getElementById('gallery');
 
-    // Filter images by the folder you want to show
     const filteredData = data.filter(item => item.folder === folderToShow);
 
     filteredData.forEach(item => {
@@ -21,7 +20,6 @@ fetch('images.json')
       mediaContainer.classList.add('media-container');
 
       let mediaElement;
-      // Detect video by file extension (or you can add a 'type' field in JSON)
       if (item.src.match(/\.(mp4|webm|ogg)$/i)) {
         mediaElement = document.createElement('video');
         mediaElement.src = item.src;

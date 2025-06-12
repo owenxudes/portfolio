@@ -21,10 +21,12 @@ a   {
 
 header {
     font-size: 6rem;
+    transition: 0.3s;
 }
 
 header:hover {
-    color: grey;
+    font-size: 5.3vw;
+    color: crimson;
 }
 
 #caption {
@@ -35,16 +37,20 @@ header:hover {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+h2:hover {
+    color: grey;
 }
 
 h3 {
-    font-size: 2rem;
-    margin-bottom: -0.5vh;
+    font-size: 2.5rem;
+    margin-bottom: 1vh;
 }
 
 #little-black-text {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 #info-container, #development-images {
